@@ -69,23 +69,23 @@ nav .signup-button:hover{
                                                 /* Main Section css */
 .main-hero{
     background-color: #0693e3;
-    height: 80vh;
+    height: 65vh;
     position: relative; 
 }
 .hero-img-main-div{
     position: relative;
-    height: 80vh;
+    height: 65vh;
     
 }
 .hero-img-main-div img{
     position: absolute;
     z-index: 2;
-    width: 90%;
+    width: 80%;
 }
 .second-section::before {
     content: "";
     position: absolute;
-    height: 79vh;
+    height: 60vh;
     top: 93px;
     width: 86%;
     left: 0;
@@ -96,7 +96,7 @@ nav .signup-button:hover{
     margin: 0 auto;
 }
 .main-hero .hero-content{
-    height: 80vh;
+    height: 65vh;
     position: absolute;
     z-index: 2;
     width: 50%;
@@ -138,12 +138,14 @@ nav .signup-button:hover{
 }
 .our-mission h1{
     position: absolute;
-    transform: translate(551px, 255px);
+    left: 50%;
+   
+    transform: translate(-50%,210px);
     color: #033394;
     font-weight: 900;
 }
+
 .our-mission-content p{
-    padding-top: 120px;
     width: 50%;
     margin: 0 auto;
     color: #2d3748;
@@ -151,15 +153,18 @@ nav .signup-button:hover{
     font-weight: 400;
     text-align: center;
 }
+.second-mission-heading{
+    display: none;
+}
 
 .our-mission-clipath{
     background-color: #edf2f7;
-    height: 70vh;
-    clip-path: polygon(51% 66%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+    height: 65vh;
+    clip-path: polygon(51% 61%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
     margin-top: -110px;
 }
 .our-mission .our-mission-content{
-    padding-top: 163px;
+    padding-top: 192px;
     height: 70vh;
 }
 /* our mission shape divider css */
@@ -177,7 +182,7 @@ nav .signup-button:hover{
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 85px;
 }
 
 .custom-shape-divider-bottom-1721031857 .shape-fill {

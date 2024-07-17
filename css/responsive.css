@@ -1,17 +1,14 @@
-
                           /* max-width 1499 */
-    @media (max-width: 1499px){
-        .our-mission h1 {
-            top: -20%;
-            left: 0%;
+    @media (max-width: 1500px){
+        
+        .our-mission-clipath {
+            clip-path: polygon(51% 52%, 100% 38%, 100% 100%, 0 100%, 0% 39%);
+    
         }
     }
                            /* max-width 1399 */
     @media (max-width: 1399px){
-        .our-mission h1 {
-            top: -20%;
-            left: -9%;
-        }
+      
         .our-mission-content p {
     
             font-size: 16px;
@@ -21,13 +18,10 @@
 
                             /* max-width 1200 */
     @media (max-width: 1200px){
-        .our-mission h1 {
-            top: -29%;
-            left: -19%;
-        }
+      
         .our-mission-clipath {
           
-            height: 84vh;
+            height: 70vh;
            
         }
     }
@@ -40,18 +34,38 @@
 
                                          /* max-width 1025 */
     @media (max-width: 1025px){
+
+        .our-mission{
+            
+        }
+        .our-mission svg{
+            width: 40px ;
+            aspect-ratio: 1;
+            color: #033394;
+        }
+        .our-mission h1{
+        
+            
+       
+            left: 50%;
+            transform: translate(-50%, 250px);
+        }
+     
+        
+       
+        .our-mission .our-mission-content{
+            padding-top: 150px;
+            height: 70vh;
+        }
+
+
+
         .second-section::before {
             width: 94%;
         }
-        .our-mission .our-mission-content {
-            padding-top: 286px;
-        }
-        .our-mission h1 {
-            top: 0%;
-        }
-        .our-mission-clipath {
-            height: 63vh;
-        }
+       
+       
+      
         .hero-img-main-div{
             align-items: center;
         }
@@ -61,13 +75,11 @@
 
                                          /* max-width 992 */
     @media (max-width: 992px){
-        .our-mission h1 {
-            top: -25%;
-            left: -39%;
-        }
-        .our-mission .our-mission-content {
-            padding-top: 236px;
-
+      
+        .our-mission-content p {
+            padding-top: 0px;
+            width: 72%;
+           
         }
         .second-section::before {
             display: none;
@@ -100,6 +112,10 @@
      .register-card-content {
          padding: 30px 10px 22px 10px;
      }
+     .our-mission-clipath {
+
+        clip-path: polygon(51% 50%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+    }
     }
 
     @media (max-width: 912px){
@@ -115,9 +131,7 @@
         .our-mission .our-mission-content {
             padding-top: 313px;
         }
-        .our-mission h1 {
-            top: 18%;
-        }
+        
 
     }
 
@@ -138,10 +152,7 @@
     
         height: 60vh;
     }
-    .our-mission h1 {
-        top: 15%;
-        left: -43%;
-    }
+   
 } 
 
                            /* max-width 768*/
@@ -176,9 +187,7 @@
         height: 100vh;
 
     }
-    .our-mission-clipath {
-        height: 70vh;
-    }
+   
     .our-mission .our-mission-content {
         padding-top: 400px;
     }
@@ -193,21 +202,21 @@
     .newsletter-div input {
         margin-bottom: 16px;
     }
-    .our-mission h1 {
-        top: 9%;
-        left: -46%;
-    }
+   
     .newsletter-section p {
         width: 100%;
+    }
+    .our-mission-clipath {
+      
+        clip-path: polygon(50% 45%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+        height: 70vh;
+       
     }
    
 }
                                                         /* max-width 540*/
 @media (max-width: 541px){
-    .our-mission h1 {
-        top: -13%;
-        left: -76%;
-    }
+    
     .hero-content p {
         font-size: 16px !important;
     }
@@ -217,15 +226,15 @@
     .newsletter-section h2 {
         font-size: 26px;
     }
+    .our-mission-content p {
+        padding-top: 0; 
+        width: 100%;}
 
 }
 
                                                       /* max-width 430 */
 @media (max-width: 430px){
-    .our-mission h1 {
-        top: -3%;
-        left: -110%;
-    }
+  
     .our-mission-content p {
         padding-top: 201px;
     }
@@ -234,18 +243,13 @@
 
                                                        /* max-width 390 */
 @media (max-width: 390px){
-    .our-mission h1 {
-        left: -119% !important;
-    }
+  
 
 }
 
                                                       /* max-width 375 */
 @media (max-width: 376px){
-    .our-mission h1 {
-        top: -13%;
-        left: -125%;
-    }
+ 
     .main-hero {
         height: 80vh !important;
     }
@@ -277,7 +281,5 @@
     .our-mission-content p {
         padding-top: 292px;
     }
-    .our-mission h1 {
-        left: -140% !important;
-    }
+  
 }
