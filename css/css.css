@@ -65,6 +65,12 @@ nav .signup-button {
 nav .signup-button:hover{
     background-color: #e0ffff;
 }
+.navbar-toggler:focus {
+box-shadow: none !important;
+}
+.navbar-toggler {
+    border: var(--primary-color) !important;
+}
 
                                                 /* Main Section css */
 .main-hero{
@@ -162,6 +168,7 @@ nav .signup-button:hover{
     height: 65vh;
     clip-path: polygon(51% 61%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
     margin-top: -110px;
+    position: relative;
 }
 .our-mission .our-mission-content{
     padding-top: 192px;
